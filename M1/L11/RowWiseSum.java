@@ -3,7 +3,7 @@ package M1.L11;
 import java.util.Scanner;
 
 public class RowWiseSum {
-    
+
     private static int[][] takeInput() {
         int[][] arr;
         try (Scanner s = new Scanner(System.in)) {

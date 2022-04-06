@@ -7,7 +7,8 @@ public class PalindromeLL {
             return head;
         }
         Node<Integer> temp = reverse(head.next);
-        temp.next = head;
+        Node<Integer> tail = head.next;
+        tail.next = head;
         head.next = null;
         return temp;
     }

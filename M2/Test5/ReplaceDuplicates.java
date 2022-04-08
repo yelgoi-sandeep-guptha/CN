@@ -5,9 +5,6 @@ import M2.Node;
 public class ReplaceDuplicates {
 
     public static void changeLL(Node<Integer> head) {
-        if (head == null || head.next == null) {
-            return;
-        }
         int max = 0;
         Node<Integer> temp = head;
         while (temp != null) {
